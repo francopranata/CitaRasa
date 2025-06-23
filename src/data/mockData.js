@@ -7,7 +7,7 @@ export const menuData = [
         "Nasi goreng spesial dengan resep turun-temurun, disajikan dengan sate ayam dan telur mata sapi.",
         price: "Rp 45.000",
         image:
-        "/src/assets/MenuSection/NasiGorengWarisan.png",
+        "/public/images/NasiGorengWarisan.png",
         category: "Makanan Utama",
         isChefPick: true,
     },
