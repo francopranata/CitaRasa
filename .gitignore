@@ -1,0 +1,61 @@
+# Dibuat oleh Franco Antonio Pranata
+
+### dependensi ###
+# Folder ini berisi semua paket yang diunduh oleh npm.
+# Folder ini bisa sangat besar dan harus dibuat ulang dengan `npm install`.
+# WAJIB diabaikan.
+/node_modules
+
+### file build ###
+# Folder ini berisi hasil akhir (production build) dari project Anda.
+# Dihasilkan dengan `npm run build` dan tidak boleh dimasukkan ke version control.
+/dist
+/build
+
+### file log ###
+# Log yang dihasilkan oleh npm jika terjadi error.
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### file environment ###
+# File environment lokal seringkali berisi kunci API atau data sensitif lainnya.
+# Jangan pernah memasukkan file .env ke repository.
+# Sebaiknya, buat file .env.example yang berisi variabel tanpa nilainya.
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+### file cache vite ###
+# Cache yang digunakan Vite untuk mempercepat proses development.
+.vite
+
+### file editor dan sistem operasi ###
+# File yang dibuat otomatis oleh editor kode atau sistem operasi.
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+
+# Lainnya
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
