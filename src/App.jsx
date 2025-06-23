@@ -26,7 +26,6 @@ function App() {
         if (preloader) {
             preloader.classList.add('loaded');
         }
-        // Memberi sedikit waktu tambahan agar transisi preloader selesai
         setTimeout(() => setLoading(false), 500);
     }, 1500); // Durasi preloader
     return () => clearTimeout(timer);
