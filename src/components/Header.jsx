@@ -35,7 +35,6 @@ const Header = () => {
                             ))}
                         </nav>
                         
-                        {/* Desktop CTA Button */}
                         <div className="hidden md:block">
                             <a 
                                 href="#kontak" 
@@ -45,7 +44,6 @@ const Header = () => {
                             </a>
                         </div>
                         
-                        {/* Mobile Menu Button */}
                         <button 
                             onClick={() => setIsOpen(!isOpen)} 
                             className="md:hidden text-gray-700 hover:text-amber-600 focus:outline-none transition-colors duration-200"
@@ -56,12 +54,11 @@ const Header = () => {
                 </div>
             </header>
 
-            {/* Mobile Menu Overlay */}
+            {/* Mobile Menu*/}
             {isOpen && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 z-40 md:hidden" onClick={() => setIsOpen(false)} />
             )}
 
-            {/* Mobile Menu */}
             <div className={`fixed top-0 right-0 h-full w-80 bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden shadow-2xl ${
                 isOpen ? 'translate-x-0' : 'translate-x-full'
             }`}>

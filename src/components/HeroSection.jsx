@@ -24,9 +24,6 @@ const HeroSection = () => {
       ></div>
       <div className="absolute inset-0 bg-black/60"></div>
       <div className="relative z-10 px-4">
-        {/* <h1 className={`text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight leading-tight mb-4 text-shadow-lg hero-title ${visible ? 'is-visible' : ''}`}>
-                        {"Seni Rasa, Momen Berharga".split(" ").map((word, i) => <span key={i} className="hero-title-word"><span style={{transitionDelay: `${i * 0.1 + 0.5}s`}}>{word}</span></span>)}
-                    </h1> */}
         <h1
           className={`text-5xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight leading-tight mb-4 text-shadow-lg hero-title ${
             visible ? "is-visible" : ""
