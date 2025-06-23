@@ -16,7 +16,10 @@ const HeroSection = () => {
         className="absolute inset-0 ken-burns"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=2070&auto=format&fit=crop')",
+            "url('/images/HeroSection.png')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat'
         }}
       ></div>
       <div className="absolute inset-0 bg-black/60"></div>
