@@ -12,7 +12,6 @@ const ChefSpecialSection = () => (
                     <p className="font-serif italic text-xl text-gray-700">- Chef Budi</p>
                 </div>
                 <div className="h-80 lg:h-full w-full order-1 lg:order-2 overflow-hidden">
-                    {/* <img src="https://images.unsplash.com/photo-1593933446856-3a7266070699?q=80&w=1974&auto=format&fit=crop" alt="Nasi Goreng Warisan" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/> */}
                     <img src="/public/images/NasiGorengWarisan.png" alt="Nasi Goreng Warisan" className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"/>
                 </div>
             </div>

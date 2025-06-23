@@ -17,7 +17,7 @@ export const menuData = [
         "Sop buntut sapi pilihan yang dimasak perlahan hingga empuk, dengan kuah kaya rempah.",
         price: "Rp 75.000",
         image:
-        "/src/assets/MenuSection/SopBuntutKlasik.png",
+        "/public/images/SopBuntutKlasik.png",
         category: "Makanan Utama",
         isChefPick: false,
     },
@@ -27,7 +27,7 @@ export const menuData = [
         "Sayuran segar direbus, disajikan dengan lontong, tahu, tempe, dan saus kacang yang lezat.",
         price: "Rp 35.000",
         image:
-        "/src/assets/MenuSection/GadoGadoSpecial.png",
+        "/public/images/GadoGadoSpecial.png",
         category: "Salad",
         isChefPick: false,
     },
@@ -36,7 +36,7 @@ export const menuData = [
         description: "Perpaduan espresso, susu segar, dan manisnya gula aren asli.",
         price: "Rp 25.000",
         image:
-        "/src/assets/MenuSection/EsKopiSusuGulaAren.png",
+        "/public/images/EsKopiSusuGulaAren.png",
         category: "Minuman",
         isChefPick: true,
     },
@@ -46,7 +46,7 @@ export const menuData = [
         "Sate ayam dengan bumbu kacang khas Madura yang kaya rasa, disajikan dengan lontong.",
         price: "Rp 40.000",
         image:
-        "/src/assets/MenuSection/SateAyamMadura.png",
+        "/public/images/SateAyamMadura.png",
         category: "Makanan Utama",
         isChefPick: false,
     },
@@ -56,7 +56,7 @@ export const menuData = [
         "Jus mangga segar dari buah pilihan tanpa tambahan pemanis buatan.",
         price: "Rp 28.000",
         image:
-        "/src/assets/MenuSection/JusManggaHarumManis.png",
+        "/public/images/JusManggaHarumManis.png",
         category: "Minuman",
         isChefPick: false,
     },
