@@ -7,7 +7,7 @@ const AboutSection = () => (
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid lg:grid-cols-2 gap-10 items-center">
                 <div className="relative">
-                    <img src="images/Restaurant.png" alt="Interior Restoran" className="relative rounded-lg shadow-2xl w-full h-auto object-cover z-10" />
+                    <img src="images/restaurant.avif" alt="Interior Restoran" className="relative rounded-lg shadow-2xl w-full h-auto object-cover z-10" />
                     <div className="absolute -bottom-4 -right-4 w-full h-full border-4 border-amber-200 rounded-lg"></div>
                 </div>
                 <div className="lg:-ml-8 bg-cream-50 z-20 relative p-8">

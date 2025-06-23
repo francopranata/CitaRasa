@@ -16,7 +16,7 @@ const HeroSection = () => {
         className="absolute inset-0 ken-burns"
         style={{
           backgroundImage:
-            "url('images/HeroSection.png')",
+            "url('images/HeroSection.avif')",
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
